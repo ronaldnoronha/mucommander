@@ -115,6 +115,8 @@ public class ToolBar extends JToolBar implements ConfigurationListener, MouseLis
                 if(action.getIcon()!=null)
                     addButton(action);
             }
+            System.out.println("test test test");
+            System.out.println(actionId);
         }
 
         if(USE_MAC_OS_X_CLIENT_PROPERTIES) {

@@ -1,0 +1,471 @@
+> Task :cleanOsgiRuntime
+> Task :clean
+> Task :apache-bzip2:clean
+> Task :mucommander-archiver:clean
+> Task :mucommander-commons-collections:clean
+> Task :mucommander-commons-conf:clean
+> Task :mucommander-commons-file:clean
+> Task :mucommander-commons-io:clean
+> Task :mucommander-commons-runtime:clean
+> Task :mucommander-commons-util:clean
+> Task :mucommander-core:clean
+> Task :mucommander-encoding:clean
+> Task :mucommander-format-ar:clean
+> Task :mucommander-format-bzip2:clean
+> Task :mucommander-format-gzip:clean
+> Task :mucommander-format-iso:clean
+> Task :mucommander-format-libguestfs:clean
+> Task :mucommander-format-lst:clean
+> Task :mucommander-format-rar:clean
+> Task :mucommander-format-sevenzip:clean
+> Task :mucommander-format-tar:clean
+> Task :mucommander-format-zip:clean
+> Task :mucommander-preferences:clean
+> Task :mucommander-process:clean
+> Task :mucommander-protocol-api:clean
+> Task :mucommander-protocol-ftp:clean
+> Task :mucommander-protocol-hadoop:clean
+> Task :mucommander-protocol-http:clean
+> Task :mucommander-protocol-nfs:clean
+> Task :mucommander-protocol-ovirt:clean
+> Task :mucommander-protocol-registry:clean
+> Task :mucommander-protocol-s3:clean
+> Task :mucommander-protocol-sftp:clean
+> Task :mucommander-protocol-smb:clean
+> Task :mucommander-protocol-vsphere:clean
+> Task :mucommander-translator:clean
+> Task :mucommander-viewer-api:clean
+> Task :mucommander-viewer-binary:clean
+> Task :mucommander-viewer-image:clean
+> Task :mucommander-viewer-text:clean
+
+> Task :compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar SKIPPED
+> Task :shadowJar
+
+> Task :apache-bzip2:compileJava
+Note: /Users/ronnie/IdeaProjects/mucommander/apache-bzip2/src/main/java/org/apache/tools/bzip2/CBZip2OutputStream.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :apache-bzip2:processResources NO-SOURCE
+> Task :apache-bzip2:classes
+
+> Task :apache-bzip2:jar
+warning: Classpath is empty. Private-Package, -privatepackage, and Export-Package can only expand from the classpath when there is one
+
+> Task :mucommander-commons-io:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :mucommander-commons-io:processResources
+> Task :mucommander-commons-io:classes
+> Task :mucommander-commons-io:jar
+> Task :mucommander-commons-runtime:compileJava
+> Task :mucommander-commons-runtime:processResources
+> Task :mucommander-commons-runtime:classes
+> Task :mucommander-commons-runtime:jar
+
+> Task :mucommander-commons-util:compileJava
+Note: /Users/ronnie/IdeaProjects/mucommander/mucommander-commons-util/src/main/java/com/mucommander/commons/util/ui/helper/MnemonicHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :mucommander-commons-util:processResources
+> Task :mucommander-commons-util:classes
+> Task :mucommander-commons-util:jar
+
+> Task :mucommander-commons-file:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :mucommander-commons-file:processResources
+> Task :mucommander-commons-file:classes
+
+> Task :mucommander-commons-file:jar
+warning: Export com.mucommander.commons.file.util,  has 3,  private references [com.sun.jna, com.sun.jna.ptr, com.sun.jna.win32]
+warning: Export com.sun.jna.platform.win32,  has 5,  private references [com.sun.jna, com.sun.jna.platform, com.sun.jna.platform.win32.COM, com.sun.jna.ptr, com.sun.jna.win32]
+
+> Task :mucommander-format-tar:compileJava
+> Task :mucommander-format-tar:processResources NO-SOURCE
+> Task :mucommander-format-tar:classes
+> Task :mucommander-format-tar:jar
+
+> Task :mucommander-format-zip:compileJava
+Note: /Users/ronnie/IdeaProjects/mucommander/mucommander-format-zip/src/main/java/com/mucommander/commons/file/archive/zip/provider/ExtraFieldUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/ronnie/IdeaProjects/mucommander/mucommander-format-zip/src/main/java/com/mucommander/commons/file/archive/zip/provider/ZipEntry.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :mucommander-format-zip:processResources NO-SOURCE
+> Task :mucommander-format-zip:classes
+> Task :mucommander-format-zip:jar
+> Task :mucommander-archiver:compileJava
+> Task :mucommander-archiver:processResources NO-SOURCE
+> Task :mucommander-archiver:classes
+> Task :mucommander-archiver:jar
+> Task :mucommander-commons-collections:compileJava
+> Task :mucommander-commons-collections:processResources
+> Task :mucommander-commons-collections:classes
+> Task :mucommander-commons-collections:jar
+> Task :mucommander-commons-conf:compileJava
+> Task :mucommander-commons-conf:processResources
+> Task :mucommander-commons-conf:classes
+> Task :mucommander-commons-conf:jar
+> Task :mucommander-preferences:compileJava
+> Task :mucommander-preferences:processResources NO-SOURCE
+> Task :mucommander-preferences:classes
+> Task :mucommander-preferences:jar
+> Task :mucommander-translator:compileJava
+> Task :mucommander-translator:processResources
+> Task :mucommander-translator:classes
+> Task :mucommander-translator:jar
+> Task :mucommander-encoding:compileJava
+> Task :mucommander-encoding:processResources NO-SOURCE
+> Task :mucommander-encoding:classes
+> Task :mucommander-encoding:jar
+> Task :mucommander-process:compileJava
+> Task :mucommander-process:processResources NO-SOURCE
+> Task :mucommander-process:classes
+> Task :mucommander-process:jar
+> Task :mucommander-protocol-api:compileJava
+> Task :mucommander-protocol-api:processResources NO-SOURCE
+> Task :mucommander-protocol-api:classes
+> Task :mucommander-protocol-api:jar
+> Task :mucommander-viewer-api:compileJava
+> Task :mucommander-viewer-api:processResources NO-SOURCE
+> Task :mucommander-viewer-api:classes
+> Task :mucommander-viewer-api:jar
+
+> Task :mucommander-core:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :mucommander-core:processResources
+> Task :mucommander-core:classes
+
+> Task :mucommander-core:jar
+warning: Export com.mucommander.ui.dialog,  has 1,  private references [com.mucommander.job.ui]
+warning: Export com.mucommander.snapshot,  has 1,  private references [com.mucommander.ui.main.table]
+warning: Export com.mucommander.ui.main,  has 17,  private references [com.mucommander.auth, com.mucommander.bookmark, com.mucommander.core, com.mucommander.ui.button, com.mucommander.ui.dnd, com.mucommander.ui.event, com.mucommander.ui.layout, com.mucommander.ui.main.commandbar, com.mucommander.ui.main.frame, com.mucommander.ui.main.table, com.mucommander.ui.main.tabs, com.mucommander.ui.main.toolbar, com.mucommander.ui.main.tree, com.mucommander.ui.progress, com.mucommander.ui.quicklist, com.mucommander.ui.tabs, com.mucommander.utils]
+
+> Task :mucommander-format-ar:compileJava
+> Task :mucommander-format-ar:processResources NO-SOURCE
+> Task :mucommander-format-ar:classes
+> Task :mucommander-format-ar:jar
+> Task :mucommander-format-bzip2:compileJava
+> Task :mucommander-format-bzip2:processResources NO-SOURCE
+> Task :mucommander-format-bzip2:classes
+> Task :mucommander-format-bzip2:jar
+> Task :mucommander-format-gzip:compileJava
+> Task :mucommander-format-gzip:processResources NO-SOURCE
+> Task :mucommander-format-gzip:classes
+> Task :mucommander-format-gzip:jar
+> Task :mucommander-format-iso:compileJava
+> Task :mucommander-format-iso:processResources NO-SOURCE
+> Task :mucommander-format-iso:classes
+> Task :mucommander-format-iso:jar
+> Task :mucommander-format-libguestfs:compileJava
+> Task :mucommander-format-libguestfs:processResources NO-SOURCE
+> Task :mucommander-format-libguestfs:classes
+> Task :mucommander-format-libguestfs:jar
+> Task :mucommander-format-lst:compileJava
+> Task :mucommander-format-lst:processResources NO-SOURCE
+> Task :mucommander-format-lst:classes
+> Task :mucommander-format-lst:jar
+> Task :mucommander-format-rar:compileJava
+> Task :mucommander-format-rar:processResources NO-SOURCE
+> Task :mucommander-format-rar:classes
+> Task :mucommander-format-rar:jar
+
+> Task :mucommander-format-sevenzip:compileJava
+Note: /Users/ronnie/IdeaProjects/mucommander/mucommander-format-sevenzip/src/main/java/com/mucommander/commons/file/archive/sevenzip/provider/SevenZip/Archive/Common/CoderInfo.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :mucommander-format-sevenzip:processResources NO-SOURCE
+> Task :mucommander-format-sevenzip:classes
+
+> Task :mucommander-format-sevenzip:jar
+warning: Export com.mucommander.commons.file.archive.sevenzip,  has 2,  private references [com.mucommander.commons.file.archive.sevenzip.provider.SevenZip, com.mucommander.commons.file.archive.sevenzip.provider.SevenZip.Archive]
+
+> Task :mucommander-protocol-ftp:compileJava
+> Task :mucommander-protocol-ftp:processResources NO-SOURCE
+> Task :mucommander-protocol-ftp:classes
+> Task :mucommander-protocol-ftp:jar
+
+> Task :mucommander-protocol-hadoop:compileJava
+/Users/ronnie/IdeaProjects/mucommander/mucommander-protocol-hadoop/src/main/java/com/mucommander/commons/file/protocol/hadoop/S3ProtocolProvider.java:40: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public class S3ProtocolProvider implements ProtocolProvider {
+       ^
+/Users/ronnie/IdeaProjects/mucommander/mucommander-protocol-hadoop/src/main/java/com/mucommander/commons/file/protocol/hadoop/S3File.java:40: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public class S3File extends HadoopFile {
+       ^
+2 warnings
+
+> Task :mucommander-protocol-hadoop:processResources NO-SOURCE
+> Task :mucommander-protocol-hadoop:classes
+> Task :mucommander-protocol-hadoop:jar
+> Task :mucommander-protocol-http:compileJava
+> Task :mucommander-protocol-http:processResources NO-SOURCE
+> Task :mucommander-protocol-http:classes
+> Task :mucommander-protocol-http:jar
+> Task :mucommander-protocol-nfs:compileJava
+> Task :mucommander-protocol-nfs:processResources
+> Task :mucommander-protocol-nfs:classes
+> Task :mucommander-protocol-nfs:jar
+> Task :mucommander-protocol-ovirt:compileJava
+> Task :mucommander-protocol-ovirt:processResources NO-SOURCE
+> Task :mucommander-protocol-ovirt:classes
+> Task :mucommander-protocol-ovirt:jar
+
+> Task :mucommander-protocol-registry:compileJava
+Note: /Users/ronnie/IdeaProjects/mucommander/mucommander-protocol-registry/src/main/java/com/mucommander/commons/file/protocol/registry/RegistryClient.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :mucommander-protocol-registry:processResources NO-SOURCE
+> Task :mucommander-protocol-registry:classes
+> Task :mucommander-protocol-registry:jar
+> Task :mucommander-protocol-s3:compileJava
+> Task :mucommander-protocol-s3:processResources NO-SOURCE
+> Task :mucommander-protocol-s3:classes
+> Task :mucommander-protocol-s3:jar
+> Task :mucommander-protocol-sftp:compileJava
+> Task :mucommander-protocol-sftp:processResources NO-SOURCE
+> Task :mucommander-protocol-sftp:classes
+> Task :mucommander-protocol-sftp:jar
+> Task :mucommander-protocol-smb:compileJava
+> Task :mucommander-protocol-smb:processResources NO-SOURCE
+> Task :mucommander-protocol-smb:classes
+> Task :mucommander-protocol-smb:jar
+> Task :mucommander-protocol-vsphere:compileJava
+> Task :mucommander-protocol-vsphere:processResources NO-SOURCE
+> Task :mucommander-protocol-vsphere:classes
+> Task :mucommander-protocol-vsphere:jar
+> Task :mucommander-viewer-binary:compileJava
+> Task :mucommander-viewer-binary:processResources NO-SOURCE
+> Task :mucommander-viewer-binary:classes
+> Task :mucommander-viewer-binary:jar
+> Task :mucommander-viewer-image:compileJava
+> Task :mucommander-viewer-image:processResources NO-SOURCE
+> Task :mucommander-viewer-image:classes
+> Task :mucommander-viewer-image:jar
+
+> Task :mucommander-viewer-text:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :mucommander-viewer-text:processResources NO-SOURCE
+> Task :mucommander-viewer-text:classes
+> Task :mucommander-viewer-text:jar
+> Task :createBundlesDir
+
+> Task :createOsgiRuntime
+No permission to make file /Users/ronnie/IdeaProjects/mucommander/build/osgi/run.sh executable. Please do it manually.
+No permission to make file /Users/ronnie/IdeaProjects/mucommander/build/osgi/run.bat executable. Please do it manually.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender (file:/Users/ronnie/IdeaProjects/mucommander/build/osgi/system-libs/mucommander-0.9.5.jar) to method java.net.URLClassLoader.addURL(java.net.URL)
+WARNING: Please consider reporting this to the maintainers of org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+01:26:30.112 [FelixStartLevel] INFO com.mucommander.commons.runtime.OsFamily - Current OS family: Mac OS X
+01:26:30.118 [FelixStartLevel] INFO com.mucommander.commons.runtime.JavaVersion - Current Java version: 13
+01:26:30.118 [FelixStartLevel] INFO com.mucommander.commons.runtime.JavaVersion - Current JVM architecture: x86_64
+01:26:30.132 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.ar.Activator$1@37e29b70
+01:26:30.135 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.bzip2.Activator$1@60c828e9
+01:26:30.138 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.gzip.Activator$1@1222fd8e
+01:26:30.141 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.iso.Activator$1@639aa0c9
+01:26:30.145 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.libguestfs.Activator$1@5c605176
+01:26:30.148 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.lst.Activator$1@57c2f8a
+01:26:30.151 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.rar.Activator$1@66aa7de4
+01:26:30.154 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.sevenzip.Activator$1@72b0eca1
+01:26:30.155 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.tar.Activator$1@3e1d2e2a
+01:26:30.157 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileFormatServiceTracker - FileFormatService is registered: com.mucommander.commons.file.archive.zip.Activator$1@54842d12
+01:26:30.158 [FelixStartLevel] DEBUG com.mucommander.conf.Activator - starting
+01:26:30.211 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.ftp.Activator$1@46c816b
+01:26:30.273 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.http.Activator$1@66395764
+01:26:30.273 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.http.Activator$2@4584e844
+01:26:30.277 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.nfs.Activator$1@48068c32
+01:26:30.283 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.ovirt.Activator$1@6d50c568
+01:26:30.288 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.registry.Activator$1@4f5e8b10
+01:26:30.289 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.registry.Activator$2@3be8da4e
+01:26:30.289 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.registry.Activator$3@5ad97515
+01:26:30.289 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.registry.Activator$4@aa130c8
+01:26:30.300 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.s3.Activator$1@414f60
+01:26:30.305 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.sftp.Activator$1@21f62bb5
+01:26:30.309 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.smb.Activator$1@5f673076
+01:26:30.313 [FelixStartLevel] INFO com.mucommander.commons.file.osgi.FileProtocolServiceTracker - FileProtocolService is registered: com.mucommander.commons.file.protocol.vsphere.Activator$1@787bab74
+01:26:30.316 [FelixStartLevel] INFO com.mucommander.text.Activator - Using language set in preferences: en
+01:26:30.316 [FelixStartLevel] INFO com.mucommander.text.Activator - Found exact match (language+country) for locale en
+01:26:30.316 [FelixStartLevel] DEBUG com.mucommander.text.Activator - Current language has been set to en
+   ____  _____ _______             _____    ________    ____
+  / __ \/ ___// ____(_)___ _____ _/ ___/   / ____/ /   /  _/
+ / / / /\__ \/ / __/ / __ `/ __ `/\__ \   / /   / /    / /  
+/ /_/ /___/ / /_/ / / /_/ / /_/ /___/ /  / /___/ /____/ /   
+\____//____/\____/_/\__,_/\__,_//____/   \____/_____/___/   
+
+:: https://github.com/renatoathaydes/osgiaas ::
+
+[ERROR] Failed to construct terminal; falling back to unsupported
+java.lang.NumberFormatException: For input string: "0x100"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.valueOf(Integer.java:989)
+	at jline.internal.InfoCmp.parseInfoCmp(InfoCmp.java:59)
+	at jline.UnixTerminal.parseInfoCmp(UnixTerminal.java:242)
+	at jline.UnixTerminal.<init>(UnixTerminal.java:65)
+	at jline.UnixTerminal.<init>(UnixTerminal.java:50)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:166)
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:404)
+	at java.base/java.lang.Class.newInstance(Class.java:591)
+	at jline.TerminalFactory.getFlavor(TerminalFactory.java:211)
+	at jline.TerminalFactory.create(TerminalFactory.java:102)
+	at jline.TerminalFactory.get(TerminalFactory.java:186)
+	at jline.TerminalFactory.get(TerminalFactory.java:192)
+	at jline.console.ConsoleReader.<init>(ConsoleReader.java:243)
+	at jline.console.ConsoleReader.<init>(ConsoleReader.java:235)
+	at jline.console.ConsoleReader.<init>(ConsoleReader.java:227)
+	at com.athaydes.osgiaas.cli.core.CliRun.<init>(CliRun.java:45)
+	at com.athaydes.osgiaas.cli.core.StandardCli.start(StandardCli.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.felix.scr.impl.inject.BaseMethod.invokeMethod(BaseMethod.java:229)
+	at org.apache.felix.scr.impl.inject.BaseMethod.access$500(BaseMethod.java:39)
+	at org.apache.felix.scr.impl.inject.BaseMethod$Resolved.invoke(BaseMethod.java:650)
+	at org.apache.felix.scr.impl.inject.BaseMethod.invoke(BaseMethod.java:506)
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:307)
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:299)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:298)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:109)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:906)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:879)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:749)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal(AbstractComponentManager.java:675)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enable(AbstractComponentManager.java:430)
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.enableComponents(ConfigurableComponentHolder.java:657)
+	at org.apache.felix.scr.impl.BundleComponentActivator.initialEnable(BundleComponentActivator.java:341)
+	at org.apache.felix.scr.impl.Activator.loadComponents(Activator.java:390)
+	at org.apache.felix.scr.impl.Activator.access$200(Activator.java:54)
+	at org.apache.felix.scr.impl.Activator$ScrExtension.start(Activator.java:265)
+	at org.apache.felix.utils.extender.AbstractExtender.createExtension(AbstractExtender.java:254)
+	at org.apache.felix.utils.extender.AbstractExtender.modifiedBundle(AbstractExtender.java:227)
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:488)
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:420)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:232)
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:450)
+	at org.apache.felix.framework.EventDispatcher.invokeBundleListenerCallback(EventDispatcher.java:915)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:834)
+	at org.apache.felix.framework.EventDispatcher.fireBundleEvent(EventDispatcher.java:516)
+	at org.apache.felix.framework.Felix.fireBundleEvent(Felix.java:4817)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2336)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1539)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:308)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+             [0m>> [0m01:26:31.071 [FelixStartLevel] DEBUG com.mucommander.Activator - starting
+01:26:31.089 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.nfs.Activator$2@e507f98
+01:26:31.089 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.ovirt.Activator$2@682db012
+01:26:31.089 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.s3.Activator$2@c1e492d
+01:26:31.089 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.sftp.Activator$2@e77350b
+01:26:31.090 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.vsphere.Activator$2@3d627e2
+01:26:31.090 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.smb.Activator$2@67eaaaa
+01:26:31.090 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.http.Activator$3@7857dc69
+01:26:31.090 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.ftp.Activator$2@4f3f6105
+01:26:31.090 [FelixStartLevel] INFO com.mucommander.ui.main.osgi.ProtocolPanelProviderTracker - ProtocolPanelProvider is registered: com.mucommander.commons.file.protocol.registry.Activator$5@7d64a637
+01:26:31.092 [FelixStartLevel] INFO com.mucommander.text.TranslationTracker - TranslationService is registered: com.mucommander.text.Activator$1@664145aa
+01:26:31.094 [FelixStartLevel] INFO com.mucommander.osgi.FileViewerServiceTracker - FileViewerService is registered: com.mucommander.viewer.binary.BinaryFileViewerService@10c63af0
+01:26:31.095 [FelixStartLevel] INFO com.mucommander.osgi.FileViewerServiceTracker - FileViewerService is registered: com.mucommander.viewer.image.ImageFileViewerService@75b346ba
+01:26:31.095 [FelixStartLevel] INFO com.mucommander.osgi.FileViewerServiceTracker - FileViewerService is registered: com.mucommander.viewer.text.TextFileViewerService@15f21aa0
+01:26:31.096 [FelixStartLevel] INFO com.mucommander.osgi.FileEditorServiceTracker - FileEditorService is registered: com.mucommander.viewer.text.TextFileViewerService@15f21aa0
+Could not load custom commands: /Users/ronnie/Library/Preferences/muCommander/commands.xml (No such file or directory). Using default values.
+Could not load custom associations: /Users/ronnie/Library/Preferences/muCommander/associations.xml (No such file or directory). Using default values.
+2020-06-01 01:26:32.213 java[5371:174033] CoreText note: Client requested name ".SFNS-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2020-06-01 01:26:32.213 java[5371:174033] CoreText note: Set a breakpoint on CTFontLogSystemFontNameRequest to debug.
+2020-06-01 01:26:32.214 java[5371:174033] CoreText note: Client requested name ".SFNS-Bold", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2020-06-01 01:26:32.215 java[5371:174033] CoreText note: Client requested name ".SFNSMono-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2020-06-01 01:26:32.221 java[5371:174033] CoreText note: Client requested name ".SFNSMono-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2020-06-01 01:26:32.221 java[5371:174033] CoreText note: Client requested name ".SFNSMono-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2020-06-01 01:26:32.222 java[5371:174033] CoreText note: Client requested name ".SFNS-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2020-06-01 01:26:32.222 java[5371:174033] CoreText note: Client requested name ".SFNS-Bold", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+test test test
+NewWindow
+test test test
+NewTab
+test test test
+null
+test test test
+GoBack
+test test test
+GoForward
+test test test
+null
+test test test
+GoToParent
+test test test
+GoToHome
+test test test
+null
+test test test
+Stop
+test test test
+null
+test test test
+MarkGroup
+test test test
+UnmarkGroup
+test test test
+null
+test test test
+SwapFolders
+test test test
+SetSameFolder
+test test test
+null
+test test test
+Pack
+test test test
+Unpack
+test test test
+null
+test test test
+AddBookmark
+test test test
+EditBookmarks
+test test test
+EditCredentials
+test test test
+null
+test test test
+ConnectToServer
+test test test
+ShowServerConnections
+test test test
+RunCommand
+test test test
+Email
+test test test
+null
+test test test
+RevealInDesktop
+test test test
+ShowFileProperties
+test test test
+null
+test test test
+ShowPreferences
+
+> Task :runOsgi

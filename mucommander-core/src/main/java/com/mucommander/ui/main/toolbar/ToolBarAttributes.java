@@ -25,6 +25,7 @@ import com.mucommander.ui.action.impl.ConnectToServerAction;
 import com.mucommander.ui.action.impl.EditBookmarksAction;
 import com.mucommander.ui.action.impl.EditCredentialsAction;
 import com.mucommander.ui.action.impl.EmailAction;
+import com.mucommander.ui.action.impl.FindAction;
 import com.mucommander.ui.action.impl.GoBackAction;
 import com.mucommander.ui.action.impl.GoForwardAction;
 import com.mucommander.ui.action.impl.GoToHomeAction;
@@ -93,7 +94,9 @@ public class ToolBarAttributes {
             RevealInDesktopAction.Descriptor.ACTION_ID,
             ShowFilePropertiesAction.Descriptor.ACTION_ID,
             null,
-            ShowPreferencesAction.Descriptor.ACTION_ID
+            ShowPreferencesAction.Descriptor.ACTION_ID,
+            null,
+            FindAction.Descriptor.ACTION_ID
     };
 
     /**
