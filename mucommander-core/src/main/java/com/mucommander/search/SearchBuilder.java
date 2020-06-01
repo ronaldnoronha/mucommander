@@ -27,7 +27,7 @@ import com.mucommander.commons.file.FileFactory;
 
 /**
  * Builder of SearchJobs
- * @author Arik Hadas
+ * @author Ronald Noronha
  */
 public class SearchBuilder {
 

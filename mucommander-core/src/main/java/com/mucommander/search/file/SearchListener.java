@@ -14,29 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
-package com.mucommander.search;
-
-import com.mucommander.commons.file.AbstractFile;
-import com.mucommander.commons.file.FileURL;
-import com.mucommander.search.file.SearchProtocolProvider;
+package com.mucommander.search.file;
 
 /**
  * @author Ronald Noronha
  */
-public class SearchUtils {
+public interface SearchListener {
 
-    public static FileURL toSearchURL(AbstractFile file) {
-        FileURL fileURL = (FileURL) file.getURL().clone();
-        switch(fileURL.getScheme()) {
-            default:
-                fileURL.setScheme(SearchProtocolProvider.SEARCH);
-                fileURL.setHost(file.getAbsolutePath(false));
-                fileURL.setPath(null);
-            case SearchProtocolProvider.SEARCH:
-                fileURL.setPath(null);
-                fileURL.setQuery(null);
-        }
-        return fileURL;
-    }
+    void searchChanged();
 }

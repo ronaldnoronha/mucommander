@@ -17,6 +17,7 @@
 package com.mucommander.search;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.Predicate;
@@ -27,6 +28,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.mucommander.commons.file.AbstractFile;
+import com.mucommander.search.file.SearchFile;
 
 /**
  * This job executes a file search.
@@ -36,25 +38,29 @@ import com.mucommander.commons.file.AbstractFile;
 public class SearchJob {
     private static final Logger LOGGER = LoggerFactory.getLogger(SearchJob.class);
 
-    private List<AbstractFile> entrypoints;
+    private AbstractFile entrypoint;
     private Predicate<AbstractFile> fileMatcher;
-    private Predicate<AbstractFile> browseMatcher;
+    private Predicate<AbstractFile> lsFilter;
     private List<AbstractFile> findings;
+    private SearchFile searchFile;
+    private int depth;
 
     SearchJob() {
         findings = new CopyOnWriteArrayList<>();
     }
 
-    void setEntrypoints(List<AbstractFile> entrypoints) {
-        this.entrypoints = entrypoints;
+    void setEntrypoint(AbstractFile entrypoint) {
+        this.entrypoint = entrypoint;
+    }
+
+    void setDepth(int depth) {
+        this.depth = depth;
     }
 
     public void search() {
-        LOGGER.info("start searching {}", entrypoints);
-        List<AbstractFile> files = entrypoints;
-        for (int i=0; i<3; i++) {
-            if (files.isEmpty())
-                break;
+        LOGGER.info("start searching {}", entrypoint);
+        List<AbstractFile> files = Collections.singletonList(entrypoint);
+        for (int i=0; i<depth && !files.isEmpty(); i++) {
             files = search(files);
         }
     }
@@ -63,13 +69,13 @@ public class SearchJob {
         this.fileMatcher = fileMatcher;
     }
 
-    public void setBrowseMatcher(Predicate<AbstractFile> browseMatcher) {
-        this.browseMatcher = browseMatcher;
+    public void setListFilter(Predicate<AbstractFile> browseMatcher) {
+        this.lsFilter = browseMatcher;
     }
 
     private List<AbstractFile> search(List<AbstractFile> files) {
         return files.parallelStream()
-                .filter(browseMatcher)
+                .filter(lsFilter)
                 .map(this::search)
                 .flatMap(stream -> stream)
                 .collect(Collectors.toList());
@@ -96,11 +102,16 @@ public class SearchJob {
         if (!passed.isEmpty()) {
             LOGGER.info("found: " + passed);
             findings.addAll(passed);
+            searchFile.searchChanged();
         }
     }
 
     public List<AbstractFile> getFindings() {
         LOGGER.info("get results: " + findings.size());
         return findings;
+    }
+
+    public void setSearchFile(SearchFile searchFile) {
+        this.searchFile = searchFile;
     }
 }
